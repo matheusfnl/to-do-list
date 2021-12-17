@@ -14,7 +14,7 @@ namespace MyTodoList
             InitializeComponent();
             this.item = item;
 
-            //atualizando os dados
+            //atualizando os dados do ToDoControl com as informações do TodoItem
             lbTitle.Text = item.title;
             lbDesc.Text = item.desc;
             

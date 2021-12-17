@@ -39,6 +39,7 @@ namespace MyTodoList
             finally
             {
                 txtBoxAddTitle.Focus();
+                //limpando as caixas de texto
                 txtBoxAddTitle.Text = string.Empty;
                 txtBoxAddDesc.Text = string.Empty;
             }
@@ -46,7 +47,9 @@ namespace MyTodoList
 
         private TodoItem fillTodoItem()
         {
+            //criando um TodoItem
             TodoItem item = new TodoItem();
+            //preenchendo as informações do TodoItem
             item.title = txtBoxAddTitle.Text;
             item.desc = txtBoxAddDesc.Text;
 
@@ -54,6 +57,7 @@ namespace MyTodoList
         }
         private bool validadeData()
         {
+            //caso não possua titulo, exibir a mensagem informando ao usuário
             if (txtBoxAddTitle.Text.Trim() == string.Empty)
             {
                 throw new Exception("O campo título é obrigatório");
