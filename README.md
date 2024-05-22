@@ -1,7 +1,7 @@
-## Simples gerenciador de lista de tarefas
+# Simples gerenciador de lista de tarefas
 
-## Tecnologias
+# Tecnologias
     Feito em c# windows form
 
-## sus
+# sus
     ඞ
