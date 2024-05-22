@@ -2,7 +2,4 @@
 
 # Tecnologias
 
-Feito em c# windows form
-
-# sus
-    ඞ
+Feito utlizando a linguagem C# e Windows Formඞ
